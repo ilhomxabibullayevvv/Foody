@@ -1,0 +1,50 @@
+.mobile {
+    padding: 100px 0;
+
+    .mobile__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .mobile__title {
+            font-family: Outfit;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50.4px;
+            text-align: left;
+            color: #241415;
+            margin-bottom: 15px;
+        }
+
+        .mobile__text {
+            width: 433px;
+            height: 120px;
+            top: 2167px;
+            left: 150px;
+            gap: 0px;
+            opacity: 0.6px;
+            font-family: Outfit;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            color: #241415;
+            margin-bottom: 30px;
+        }
+
+        .mobile__image {
+            width: 439.01px;
+            height: 610.69px;
+            top: 1949px;
+            left: 850px;
+            gap: 0px;
+            opacity: 0px;
+        }
+
+        .mobile__box {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+}

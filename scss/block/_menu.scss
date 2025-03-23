@@ -1,0 +1,136 @@
+.menu {
+    padding-top: 100px;
+
+    .menu__title {
+        font-family: Outfit;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50.4px;
+        text-align: center;
+        color: #241415;
+        margin-bottom: 15px;
+    }
+
+    .menu__text {
+        width: 740px;
+        height: 60px;
+        top: 1087px;
+        left: 150px;
+        gap: 0px;
+        opacity: 0.6px;
+        font-family: Outfit;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        color: #241415;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .menu__card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .menu__cart {
+            width: 262px;
+            height: 311px;
+            padding: 0px 0px 0px 0px;
+            gap: 16px;
+            border-radius: 20px 20px 20px 20px;
+            opacity: 0px;
+            background-color: #FFFFFF;
+            box-shadow: 5px 5px 20px 0px #24141514;
+            text-align: center;
+
+            .menu__sub-title {
+                font-family: Poppins;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 27px;
+                text-align: left;
+                color: #241415;
+                margin-left: 30px;
+            }
+
+            .menu__number {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 21px;
+                text-align: left;
+                color: #241415;
+            }
+
+            .menu__sub2-title {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                text-align: left;
+                color: #241415;
+                margin-left: 30px;
+            }
+
+            .menu__clock {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-family: Poppins;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                text-align: left;
+                color: #241415;
+            }
+
+            .menu__image {
+                width: 262px;
+                height: 150px;
+                gap: 0px;
+                border-radius: 20px 20px 0px 0px;
+                opacity: 0px;
+                margin-bottom: 15px;
+            }
+
+            .menu__box {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                margin-bottom: 15px;
+            }
+
+            .menu__box2 {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 15px;
+            }
+
+            .menu__btn {
+                width: 230px;
+                height: 50px;
+                padding: 13px 20px 13px 20px;
+                gap: 10px;
+                border-radius: 20px 20px 20px 20px;
+                opacity: 0px;
+                background: #F54749;
+                font-family: Outfit;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20.16px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

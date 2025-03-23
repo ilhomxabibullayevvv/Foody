@@ -1,0 +1,174 @@
+.hero {
+    padding-top: 100px;
+
+    .hero__container {
+        display: flex;
+        align-items: end;
+        gap: 15px;
+
+        .hero__image {
+            width: 648.47px;
+            height: 605.87px;
+            top: 265.13px;
+            left: 696.23px;
+            gap: 0px;
+            opacity: 0px;
+            background-color: #F54749;
+            border-radius: 50%;
+        }
+
+        .hero__box {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            width: 191px;
+            height: 50px;
+            top: 172px;
+            left: 150px;
+            border-radius: 50px 50px 50px 50px;
+            opacity: 0.1px;
+            background: #FEEDED;
+            font-family: Outfit;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            color: #F54749;
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        .hero__title {
+            width: 459px;
+            height: 303px;
+            top: 232px;
+            left: 150px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Outfit;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 100.8px;
+            text-align: left;
+            color: #141123;
+            margin-bottom: 15px;
+
+            .hero__span {
+                color: #F54749;
+            }
+        }
+
+        .hero__text {
+            width: 520px;
+            height: 60px;
+            top: 560px;
+            left: 150px;
+            gap: 0px;
+            opacity: 0.6px;
+            font-family: Outfit;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: left;
+            color: #141123;
+            margin-bottom: 30px;
+        }
+
+        .hero__button {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 30px;
+
+            .hero__btn {
+                width: Fixed (193px)px;
+                height: Fixed (60px)px;
+                top: 670px;
+                left: 150px;
+                padding: 13px 20px 13px 20px;
+                gap: 10px;
+                border-radius: 20px 20px 20px 20px;
+                opacity: 0px;
+                background: #F54749;
+                font-family: Outfit;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20.16px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+
+            .hero__images {
+                width: 24px;
+                height: 24px;
+                top: 675px;
+                left: 378px;
+                gap: 0px;
+                opacity: 0.1px;
+                
+            }
+
+            .hero__sub-title {
+                font-family: Outfit;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                text-align: left;
+                color: #141123;
+            }
+        }
+
+        .hero__box2 {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .hero__image2 {
+                width: 65px;
+                height: 65px;
+                top: 784px;
+                left: 250px;
+                gap: 0px;
+                border: 2px 2px 2px 2px;
+                opacity: 0px;
+                border: 2px solid #FFFFFF;
+                border-left: none;
+                margin-left: -20px;
+            }
+
+            .hero__box4 {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+
+                .hero__number {
+                    font-family: Outfit;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-align: left;
+                    color: #241415;
+                }
+
+                .hero__sub2-title {
+                    font-family: Outfit;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    text-align: left;
+                    color: #241415;
+                }
+
+                .hero__sub3-title {
+                    font-family: Outfit;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    text-align: left;
+                    color: #241415;
+                }
+            }
+        }
+    }
+}
